@@ -90,10 +90,10 @@
 <!-- socket loader -->
 <div class="loader-wrap" :class="{ 'visible': loaderVisible }">
   <div class="loader-content">
-    <div v-if="status === 0"><i>📡</i> <br /> Connecting to Socket API ...</div>
-    <div v-else-if="status === 1"><i>💬</i> <br /> Waiting for data from Socket API ...</div>
-    <div v-else-if="status === 2"><i>😃</i> <br /> Connected to the Socket API</div>
-    <div v-else-if="status === -1"><i>😡</i> <br /> Error connecting to the Socket API</div>
+    <div v-if="status === 0"><i>📡</i> <br /> Connecting to hellaData API ...</div>
+    <div v-else-if="status === 1"><i>💬</i> <br /> Waiting for data from hellaData API ...</div>
+    <div v-else-if="status === 2"><i>😃</i> <br /> Connected to the hellaData API</div>
+    <div v-else-if="status === -1"><i>😡</i> <br /> Error connecting to the hellaData API</div>
   </div>
 </div>
 
